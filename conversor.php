@@ -25,7 +25,7 @@ if(isset($_POST["conversion"]) && (is_numeric($_POST["conversion"]) || is_numeri
 {
     $conversion=str_replace(",",".",$_POST["conversion"]);
 }else{
-    $conversion=1.36;
+    $conversion=1.45; //ajusto ratio de conversion sebastian scozzatti
 }
  
 // valor a convertir
